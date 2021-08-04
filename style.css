@@ -11,6 +11,10 @@ button:focus {
   background-color: black;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .coverlinkti {
   order: 1;
 
