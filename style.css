@@ -566,10 +566,8 @@ nav.sidebar ul li a.expandable {
   }
 
   .card {
-    max-width: 21%;
+    width: 21%;
     height: 21vh;
-
-
   }
 }
 
