@@ -539,7 +539,7 @@ nav.sidebar ul li a.expandable {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
 }
 
 .card {
@@ -549,8 +549,6 @@ nav.sidebar ul li a.expandable {
   max-width: 23%;
   height: 20vh;
   margin: 1%;
-
-
 }
 
 
@@ -572,12 +570,7 @@ nav.sidebar ul li a.expandable {
 }
 
 
-
-
-
-
 /* iphone landscape*/
-
 
 @media (orientation: landscape) and (max-device-width : 800px) {
   .cardContainer {
@@ -625,7 +618,6 @@ nav.sidebar ul li a.expandable {
   }
 }
 
-/* mobile portrait*/
 
 
 
@@ -645,6 +637,7 @@ nav.sidebar ul li a.expandable {
 .card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -698,16 +691,50 @@ nav.sidebar ul li a.expandable {
     font-size: 95px;
   }
 
+
+  .cardTitle {
+
+
+    height: auto;
+  
+    font-size: 55px;
+  
+  }
+  
   .cardContainer {
-    width: 90%;
-    margin-top: 10%;
+  
+    width: 85%;
+    max-width: 1400px;
+  
+    height: 50%;
+    margin-bottom: 15%;
+  
     flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+      flex-basis: 100%;
+  
+    
+  }
+  
+
+
+
+
+  .cardContainer {
+    width: 85%;
+    margin-top: 10%;
+
   }
 
   .card {
-    max-width: 35%;
+    max-width: 80%;
+    height: 600px;
+    max-height: 55%;
+    margin-top: 50px;
+    flex-basis: 100%;
+
   }
 
   nav.sidebar {
